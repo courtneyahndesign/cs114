@@ -10,5 +10,10 @@ print("How many coats are you going to apply to the wall?")
 number_of_coats = input()
 area = float(width) * float(length)
 gallons_used = float(area) / float(400)
+rounded_gallons = round(gallons_used)
+if rounded_gallons < gallons_used:
+    gallons_used = int(rounded_gallons) + 1
 total_price = float(gallons_used) * float(price_per_gallon) *float(number_of_coats)
 print("It will cost $" + str(total_price) + " to paint your wall.")
+if int(total_price) == int(price_per_gallon):
+    print("It doesn't actually take a whole gallon to paint your wall, but you have to buy a gallon at least.")
