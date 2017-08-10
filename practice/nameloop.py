@@ -1,0 +1,5 @@
+name = ''                           # (1)
+while name != "your dog's name":          # (2)
+    print("Type your dog's name.")
+    name = input()                  # (3)
+print('Hehe, you really should take things more literal!')                 # (4)
