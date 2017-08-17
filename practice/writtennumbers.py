@@ -28,6 +28,9 @@ if ones == 1:
         print("eleven")
     else:
         print("one")
+elif ones == 0:
+    if tens == 1:
+        print("ten")
 elif ones == 2:
     if tens == 1:
         print("twelve")
