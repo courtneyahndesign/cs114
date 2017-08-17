@@ -9,7 +9,7 @@ answer = input()
 
 import random
 for i in range(1):
-    amount = (random.randint(1, 2))
+    amount = (random.randint(1, 9))
 
 if amount == 1:
     print("Of course!")
