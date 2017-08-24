@@ -86,14 +86,4 @@ def main():
     result = "Your number is" + str(tens_final) + " " + str(ones_final)
     return print(result)
 
-
 main()
-
-
-# def main():
-#     tens_final = calculate_tens()
-#     ones_final = calculate_ones()
-#     phrase = tens_final + ones_final
-#     return print(phrase)
-#
-# main()
