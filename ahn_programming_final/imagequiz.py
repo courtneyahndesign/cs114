@@ -2,7 +2,7 @@ import tkinter as tk
 
 root = tk.Tk()
 root.geometry('{}x{}'.format(700, 700))
-root.title("Images & Tkinter")
+root.title("Guess the Dog Breed!")
 
 images = ["dog1.gif", "dog2.gif", "dog3.gif", "dog4.gif", "dog5.gif", "dog6.gif", "dog7.gif", "dog8.gif", "dog9.gif", "dog10.gif", "final.gif"]
 
